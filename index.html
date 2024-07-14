@@ -15,66 +15,34 @@
   <body
     class="bg-[url('../assets/homeimg.jpg')]  bg-cover bg-center bg-no-repeat h-screen scroll-smooth ">
 
-    <nav class=" bg-white flex items-center justify-between w-full h-16 p-8 ">
-        <a href="#home" class="text-2xl font-bold flex gap-2"
-          ><img src="assets/logo.png " alt="description" class="w-8 h-8" />RouteX</a
-        >
+    <nav class="bg-white flex  items-center justify-between p-2 gap-4 w-full h-16">
+      <div>
+      <a href="#home" class="text-2xl font-bold flex gap-2"><img src="assets/logo.png" style="width:32px ">RouteX</a>
+    </div>
 
-        <div
-          class="dropdown-menu absolute -top-full left-0 max-lg:bg-white flex flex-col gap-2 w-full items-center py-2 font-semibold lg:static lg:flex-row lg:justify-between "
-        >
-          <ul
-            class="flex flex-col items-center gap-3 cursor-pointer lg:flex-row lg:gap-6 lg:justify-between lg:pl-44 "
-          >
-            <a href="#home"
-              ><li
-                class="text-green-950 hover:text-green-400 whitespace-nowrap"
-              >
-                HOME
-                <i
-                  class="fa-solid fa-angle-down text-xs text-green-950"
-                ></i></li
-            ></a>
-            <a href="#about"
-              ><li
-                class="text-green-950 hover:text-green-400 whitespace-nowrap"
-              >
-                ABOUT US
-                <i
-                  class="fa-solid fa-angle-down text-xs text-green-950"
-                ></i></li
-            ></a>
-            <li class="text-green-950 hover:text-green-400 whitespace-nowrap">
-              STORY
-              
-            </li>
-            <li class="text-green-950 hover:text-green-400 whitespace-nowrap">
-              VISA <i class="fa-solid fa-angle-down text-xs text-green-950"></i>
-            </li>
-            <li class="text-green-950 hover:text-green-400 whitespace-nowrap">
-              BLOG 
-            </li>
-            <li class="text-green-950 hover:text-green-400 whitespace-nowrap">
-              PAGE <i class="fa-solid fa-angle-down text-xs text-green-950"></i>
-            </li>
-            <li class="text-green-950 hover:text-green-400 whitespace-nowrap">
-              CONTACT
-              <i class="fa-solid fa-angle-down text-xs text-green-950"></i>
-            </li>
-          </ul>
-          <div class="flex items-center justify-center gap-2 mt-4 lg:pb-4 lg:mr-5">
-            <i class="fa-regular fa-comments fa-lg" style="color: #07f217"></i>
-            <p class="text-center text-xs font-thin">
-              Need Help? <br />
-              <span class="font-semibold">(000)000-0000</span>
-            </p>
-          </div>
-        </div>
-
-        <div class="toggle-button cursor-pointer pr-6 lg:hidden">
-          <i class="fa-solid fa-bars fa-lg" style="color: #1bf40b"></i>
-        </div>
-      </nav>
+    <div class="dropdown-menu absolute -top-full left-0 max-lg:bg-white flex flex-col gap-2 w-full items-center py-2 font-semibold lg:static lg:flex-row lg:justify-center">
+      <ul class="flex flex-col items-center gap-3 cursor-pointer lg:flex-row lg:gap-6 lg:justify-between ">
+        <a href="#home"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">HOME <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#about"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">ABOUT US <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">STORY <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">VISA <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">BLOG <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">PAGE <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+        <a href="#"><li  class="text-green-950 hover:text-green-400 whitespace-nowrap">CONTACT <i class="fa-solid fa-angle-down text-xs text-green-950"></i></li></a>
+      </ul>
+    </div>
+    <div class="flex items-center justify-center whitespace-nowrap  gap-2   lg:mr-5">
+      <i class="fa-regular fa-comments fa-lg" style="color: #07f217"></i>
+      <p class="text-center text-xs font-thin">
+        Need Help? <br />
+        <span class="font-semibold">(000)000-0000</span>
+      </p>
+    </div>
+    <div class="toggle-button cursor-pointer pr-6 lg:hidden ">
+      <i class="fa-solid fa-bars fa-lg" style="color: #1bf40b"></i>
+    </div>
+    </nav>
+   
 
 
     <section id="home"  class="flex flex-col justify-center items-center h-full">
