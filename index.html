@@ -13,9 +13,9 @@
 
   </head>
   <body
-    class="bg-[url('../assets/homeimg.jpg')] bg-cover bg-center bg-no-repeat h-screen scroll-smooth">
+    class="bg-[url('../assets/homeimg.jpg')]  bg-cover bg-center bg-no-repeat h-screen scroll-smooth ">
 
-    <nav class=" bg-white flex items-center justify-between h-16 px-8">
+    <nav class=" bg-white flex items-center justify-between w-full h-16 px-8 ">
         <a href="#home" class="text-2xl font-bold flex gap-2"
           ><img src="assets/logo.png " alt="description" class="w-8 h-8" />RouteX</a
         >
@@ -77,18 +77,18 @@
       </nav>
 
 
-    <section id="home" class="flex flex-col justify-center">
-      <div class="text-center text-white py-36">
+    <section id="home"  class="flex flex-col justify-center items-center h-full">
+      <div class="text-center text-white py-32 ">
         <h1
-          class="text-4xl font-bold mb-5 leading-snug lg:text-7xl lg:leading-tight lg:mb-7"
+          class="text-4xl  font-bold mb-6 md:text-6xl  lg:text-7xl lg:leading-tight lg:mb-7 "
         >
           Journey with Confidence <br /><span class="text-[#1bf40b]"
             >Migrate</span
           >With Us
         </h1>
-        <p class="mb-5 w-[40%] mx-auto lg:mb-10 lg:leading-relaxed">
+        <p class="mb-8 px-8   lg:mb-10 lg:leading-relaxed ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          vel eligendi, animi mollitia tempora laboriosam minima excepturi hic
+          vel eligendi, animi mollitia tempora <br> laboriosam minima excepturi hic
           quod dicta repellat sed earum quia! Numquam, reiciendis! Vel nisi
         </p>
         <div>
@@ -104,7 +104,7 @@
     <!-- ---------------------------About--------------------- -->
 
     <section id="about" class="bg-white py-8">
-      <div class="p-10 flex flex-col items-center justify-center lg:flex-row">
+      <div class="p-6 flex flex-col items-center justify-center lg:flex-row">
         <div class="lg:flex-1">
           <img  src="assets/about_banner.png" />
         </div>
@@ -283,16 +283,16 @@
 
     <!-- --------------------Footer------------------ -->
 
-    <footer class="py-12 px-20 bg-green-950 border-t-2 border-t-green-400">
+    <footer class="py-12 px-8 bg-green-950 border-t-2 border-t-green-400 ">
       <div
-        class="grid grid-cols-2 gap-10 text-white font-normal lg:grid-cols-4"
+        class="flex flex-col justify-between gap-10 text-white font-normal lg:flex-row "
       >
-        <div class="flex-col">
+        <div class="flex-col flex-1">
           <div class="flex gap-2 mb-5">
             <img class="w-8 h-8" src="assets/logo.png" />
             <a class="font-semibold text-2xl" href="#home">RouteX</a>
           </div>
-          <p class="mb-5 font-semibold w-[75%]">
+          <p class="mb-5 font-semibold w-[80%]">
             Corporate business typically refers to large-scale mansola it
             enterprises or organizat
           </p>
@@ -316,7 +316,7 @@
           </div>
         </div>
 
-        <div class="flex-col">
+        <div class="flex-col flex-1 ">
           <h3 class="mb-5 font-semibold">Service Menu</h3>
           <div>
             <p class="hover:text-[#1bf40b] whitespace-nowrap">
@@ -350,7 +350,7 @@
           </div>
         </div>
 
-        <div class="flex-col">
+        <div class="flex-col flex-1">
           <h3 class="mb-5 font-semibold">Useful Link</h3>
           <div>
             <p class="hover:text-[#1bf40b]">
@@ -369,7 +369,7 @@
             </p>
             <p class="hover:text-[#1bf40b]">
               <i
-                class="fa-solid fa-chevron-right fa-2xs mr-2"
+                class="fa-solid fa-chevron-right fa-2xs mr-2 whitespace-nowrap"
                 style="color: #08f724"
               ></i>
               General Inquiries
@@ -384,13 +384,13 @@
           </div>
         </div>
 
-        <div>
+        <div class="flex-1">
           <h3 class="mb-5 font-semibold">Gallery</h3>
           <div>
             <img
-              class="cursor-pointer"
+              class=" cursor-pointer "
               src="assets/footer_gallery.png"
-              alt=""
+              style = "max-width: 250px; "
             />
           </div>
         </div>
@@ -400,11 +400,11 @@
     <footer
       class="py-8 px-10 bg-green-950 border-t-[1px] border-t-gray-600 lg:px-20"
     >
-      <div class="flex flex-col justify-between lg:flex-row">
+      <div class="flex flex-col lg:flex lg:justify-between lg:flex-row">
         <p class="text-gray-500 hover:text-gray-300 whitespace-nowrap mb-3">
           ©RRDevs 2024|All Rights Reserved
         </p>
-        <div class="flex gap-12 lg:gap-16">
+        <div class="flex flex-col gap-8 lg:gap-16 lg:flex-row">
           <p class="text-gray-500 hover:text-gray-300 whitespace-nowrap">
             Terms & Condition
           </p>
